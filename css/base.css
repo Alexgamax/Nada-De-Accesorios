@@ -1,0 +1,27 @@
+:root {
+    --pacifico: "Pacifico", cursive;
+    --nunito: 'Nunito', sans-serif;
+    --color-rosa: #ea899a;
+    --color-carnita: #ffe9e3;
+    --color-morado: #A67B95;
+    --color-amarillo: #f7fc03;
+    --color-rojo: #B8073F;
+}
+
+body {
+    font-family: var(--nunito);
+    background-color: white;
+}
+
+.shadow {
+    text-shadow: 1px 1px 2px #000;
+}
+
+.titulo {
+    font-family: var(--pacifico);
+    font-size: 2rem;
+}
+
+.box__shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
