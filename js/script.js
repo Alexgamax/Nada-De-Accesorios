@@ -3,7 +3,7 @@ const menus = Array.from(document.querySelectorAll(".productos__menu"));
 for(const menu of menus) {
     menu.addEventListener("click", () => {
         menu.nextElementSibling.classList.toggle("hide");
-        let elements = Array.from(menu.nextElementSibling.children);
+        const elements = Array.from(menu.nextElementSibling.children);
         setTimeout(() => {
             for(const element of elements) {
                 element.classList.toggle("opacity");
