@@ -218,6 +218,10 @@
     transition: opacity 500ms;
 }
 
+.texto__flores {
+    margin-top: 1rem;
+}
+
 .hide {
     height: 0;
     display: none;
