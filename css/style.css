@@ -220,6 +220,11 @@
 
 .texto__flores {
     margin-top: 1rem;
+    text-align: start;
+}
+
+.texto__flores:last-child {
+    margin-top: 0.25rem;
 }
 
 .hide {
