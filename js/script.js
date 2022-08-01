@@ -22,3 +22,17 @@ menus.forEach(menu => {
         },100)
     })
 });
+
+const botones = Array.from(document.querySelectorAll(".redireccion"));
+
+botones.forEach(boton => {
+    boton.addEventListener("click", () => {
+        event.preventDefault();
+        const direccion = document.querySelector(event.target.attributes.href.value);
+        window.scrollTo({
+            top: direccion.offsetTop,
+            left: 0,
+            behavior: "smooth"
+        })
+    })
+});
